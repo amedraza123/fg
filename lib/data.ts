@@ -35,7 +35,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
+    title: "AHmed raza",
     location: "Miami, FL",
     description:
       "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
