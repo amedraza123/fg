@@ -1,10 +1,9 @@
 import React from "react";
 import ReactDOMServer from "react-dom/server"; // Import ReactDOMServer for rendering components to HTML
-import { Resend } from "resend";
+// Adjust the import statement to match the usage
+import * as resend from "resend"; // Assuming 'resend' is the correct module name
 import { validateString, getErrorMessage } from "@/lib/utils";
 import ContactFormEmail from "@/email/contact-form-email";
-
-
 
 export const sendEmail = async (formData: FormData) => {
   const senderEmail = formData.get("senderEmail");
@@ -32,6 +31,7 @@ export const sendEmail = async (formData: FormData) => {
       })
     );
 
+    // Now 'resend' matches the import statement
     data = await resend.emails.send({
       from: "Contact Form <onboarding@resend.dev>",
       to: "uniformedtornado@gmail.com",
