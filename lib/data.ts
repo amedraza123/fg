@@ -28,61 +28,63 @@ export const links = [
     hash: "#experience",
   },
   {
-    name: "Contact",
+    name: "Contact",icon: React.createElement(FaReact),
     hash: "#contact",
   },
 ] as const;
 
 export const experiencesData = [
   {
-    title: "AHmed raza",
-    location: "Miami, FL",
+    title: "Ahmed Raza",
+    location: "Pakistan, Lahore",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "After a brief period of intensive study, I embarked on my professional journey as a front-end developer, demonstrating rapid growth and adaptability in the tech industry.",
     icon: React.createElement(LuGraduationCap),
     date: "2019",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "Pakistan, Lahore",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Commencing my career in 2020, I specialized in front-end development, mastering modern frameworks and libraries. My dedication led to significant contributions and recognition in the field.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2020 - 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Software Engineer at Slack",
+    location: "Remote",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "In 2023, I joined Slack as a Software Engineer, leveraging my skills in both front-end and back-end development. This role allowed me to expand my expertise across the full technology stack, including React, Next.js, TypeScript, Tailwind, Prisma, and MongoDB.",
+      icon: React.createElement(FaReact), // Assuming WorkIcon is imported or defined elsewhere
+    date: "2023 - Present",
   },
+  
 ] as const;
-
 export const projectsData = [
   {
-    title: "CorpComment",
-    description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    title: "Cv-Builder",
+    description: "Since embarking on my journey in web development with the creation of my inaugural React project, I have discovered a profound appreciation and enthusiasm for the field. .",
+    tags: ["React", "Next.js",  "Tailwind", ],
     imageUrl: corpcommentImg,
+    url: "https://cv-builder78.netlify.app/" , // Ensuring consistency
   },
   {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    title: "Website Template for a tech company",
+    description: " I'd especially love to work at a startup on a tight knit team where I can make an impact quickly. If you're hiring, let's chat!.",
+    tags: ["React", "TailWind",],
     imageUrl: rmtdevImg,
+    url: "https://enchanting-cascaron-b65207.netlify.app", // Ensuring consistency
   },
   {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    title: "Eccomerence-App",
+    description: "My First React.js Project.",
+    tags: ["React", "Tailwind",],
     imageUrl: wordanalyticsImg,
+    url: "https://example.com/wordanalytics", // Ensuring consistency
   },
-] as const;
+];
+
+
 
 export const skillsData = [
   "HTML",
@@ -94,14 +96,6 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
+  "Boots strap", 
   "Framer Motion",
 ] as const;
